@@ -43,17 +43,17 @@ namespace Labb_3_OOP__Polymorphism_
     public class Rektangel : Teckning
     {
         public double Length { get; set; }
-        public double Breadth { get; set; }
+        public double Width { get; set; }
 
-        public Rektangel(double length, double breadth)
+        public Rektangel(double length, double width)
         {
             this.Length = length;
-            this.Breadth = breadth;
+            this.Width = width;
         }
 
         public override double Area()
         {
-            return Length * Breadth;
+            return Length * Width;
         }
 
         public override void output()
