@@ -24,9 +24,9 @@ namespace Labb_3_OOP__Polymorphism_
     {
         public double Side { get; set; }
 
-        public Fyrkant(double side)
+        public Fyrkant()
         {
-            this.Side = side;
+            this.Side = 6;
         }
 
         public override double Area()
@@ -45,10 +45,10 @@ namespace Labb_3_OOP__Polymorphism_
         public double Length { get; set; }
         public double Width { get; set; }
 
-        public Rektangel(double length, double width)
+        public Rektangel()
         {
-            this.Length = length;
-            this.Width = width;
+            this.Length = 4;
+            this.Width = 5;
         }
 
         public override double Area()
@@ -66,9 +66,9 @@ namespace Labb_3_OOP__Polymorphism_
     {
         public double Radius { get; set; }
 
-        public Cirkel(double radius)
+        public Cirkel()
         {
-            this.Radius = radius;
+            this.Radius = 2;
         }
 
         public override double Area()
@@ -88,13 +88,13 @@ namespace Labb_3_OOP__Polymorphism_
     {
         static void Main(string[] args)
         {
-            Cirkel U1 = new Cirkel(4);
+            Cirkel U1 = new Cirkel();
             U1.output();
 
-            Rektangel U2 = new Rektangel(4,4);
+            Rektangel U2 = new Rektangel();
             U2.output();
 
-            Fyrkant U3 = new Fyrkant(5);
+            Fyrkant U3 = new Fyrkant();
             U3.output();
 
             
