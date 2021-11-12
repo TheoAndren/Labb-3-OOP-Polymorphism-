@@ -88,15 +88,14 @@ namespace Labb_3_OOP__Polymorphism_
     {
         static void Main(string[] args)
         {
-            Cirkel U1 = new Cirkel();
+            Teckning U1 = new Cirkel();
             U1.output();
 
-            Rektangel U2 = new Rektangel();
+            Teckning U2 = new Rektangel();
             U2.output();
 
-            Fyrkant U3 = new Fyrkant();
+            Teckning U3 = new Fyrkant();
             U3.output();
-
             
 
 
